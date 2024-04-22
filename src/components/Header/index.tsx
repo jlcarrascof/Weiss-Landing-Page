@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import { ArrowForward } from "react-ionicons";
 
 const Header = () => {
   return (
@@ -16,6 +17,12 @@ const Header = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
+                <div>
+                    <span>
+
+                    </span>
+                    <ArrowForward />
+                </div>
             </div>
         </div>
     </div>
