@@ -17,11 +17,11 @@ const Header = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div>
+                <div className="flex items-center gap-3 bg-[#ff9900] w-[209px] h-[40px] justify-center cursor-pointer mt-10">
                     <span>
-
+                        Contact
                     </span>
-                    <ArrowForward />
+                    <ArrowForward color="#fff" />
                 </div>
             </div>
         </div>
