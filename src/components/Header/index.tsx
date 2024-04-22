@@ -12,6 +12,10 @@ const Header = () => {
                 <div className="font-bold text-[#263640] text-[42px] md:max-w-[650px] mt-4">
                     Quality is our number one priority here
                 </div>
+                <p className="font-normal text-[#929a9f] md:max-w-[450px] leading-7 mt-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
             </div>
         </div>
     </div>
