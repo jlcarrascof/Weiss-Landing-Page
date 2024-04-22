@@ -3,3 +3,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar * {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff9900 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cc7b02 !important;
+}
