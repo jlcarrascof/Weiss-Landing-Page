@@ -9,6 +9,9 @@ const Header = () => {
                 <span className="font-medium text-[#929a9f] text-[18px]">
                     welcome to our website
                 </span>
+                <div className="font-bold text-[#263640] text-[42px] md:max-w-[650px] mt-4">
+                    Quality is our number one priority here
+                </div>
             </div>
         </div>
     </div>
