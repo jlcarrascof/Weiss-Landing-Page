@@ -18,7 +18,7 @@ const Header = () => {
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div className="flex items-center gap-3 bg-[#ff9900] w-[209px] h-[40px] justify-center cursor-pointer mt-10">
-                    <span>
+                    <span className="text-white font-medium text-[15px]">
                         Contact
                     </span>
                     <ArrowForward color="#fff" />
