@@ -31,6 +31,7 @@ const Header = () => {
                     alt="header"
                     className="md:mt-[-130px] mt-16 md:mb-0 mb-16 shadow-xl z-50"
                 />
+                <div className="absolute left-[-50px] top-[60px] w-[450px] bg-[#f5f8fa] h-[570px] z-[-1]"></div>
             </div>
         </div>
     </div>
