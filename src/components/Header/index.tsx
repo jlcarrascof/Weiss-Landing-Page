@@ -1,5 +1,6 @@
 import Navbar from "../Navbar";
 import { ArrowForward } from "react-ionicons";
+import header from "../../assets/images/header.png";
 
 const Header = () => {
   return (
@@ -23,6 +24,13 @@ const Header = () => {
                     </span>
                     <ArrowForward color="#fff" />
                 </div>
+            </div>
+            <div className="relative">
+                <img
+                    src={header}
+                    alt="header"
+                    className="md:mt-[-130px] mt-16 md:mb-0 mb-16 shadow-xl z-50"
+                />
             </div>
         </div>
     </div>
