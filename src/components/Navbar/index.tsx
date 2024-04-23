@@ -9,7 +9,12 @@ const Navbar = () => {
       {title: "About", path: "/", active: false},
     ]
     return (
-      <div>Navbar</div>
+      <div className="w-full ">
+        <img
+          src={logo}
+          alt="logo"
+        />
+      </div>
     )
 }
 
