@@ -1,3 +1,4 @@
+
 import service1 from '../../assets/images/service1.png'
 import service2 from '../../assets/images/service2.png'
 import service3 from '../../assets/images/service3.png'
@@ -25,7 +26,16 @@ const Services = () => {
 
     return (
         <div className="w-full md:px-40 px-5 bg-[#f5f8fa] relative z-[-1] pt-20 md:pb-[300px] pb-20">
-
+            <div className="flex flex-col gap-2">
+                <div className="text-[#263640] md:text-left text-center font-bold text-[25px] max-w-[650px] mt-2">
+                    Top Services with cheap prices
+                </div>
+                <p className="font-normal text-[#929a9f] max-w-[550px] leading-7 mt-4 md:text-justify text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi soluta, dolor
+                    eaque consectetur ullam pariatur, itaque adipisci beatae molestiae repundiadae
+                    corrupti eos, odio neque perspiciatis ratione dignissimos voluptas.
+                </p>
+            </div>
         </div>
     )
 }
