@@ -39,12 +39,15 @@ const Services = () => {
                 {services.map((service, index: number) => {
                     return (
                         <div key={index} className="flex flex-col gap-3 max-w-[300px] z-50">
-
+                            <img src={service.image} alt={service.title} className="shadow-lg" />
+                            <span className="font-semibold text-[#263640] text-[17px] mt-3">
+                                {service.title}
+                            </span>
+                            <p className="text-[#929a9f] leading-7"> {service.desc} </p>
+                            <a href="#" className="text-[#ff9900]">Learn More</a>
                         </div>
-                    )
-                })
-
-                };
+                    );
+                })};
             </div>
         </div>
     )
