@@ -1,4 +1,3 @@
-
 import service1 from '../../assets/images/service1.png'
 import service2 from '../../assets/images/service2.png'
 import service3 from '../../assets/images/service3.png'
@@ -35,6 +34,17 @@ const Services = () => {
                     eaque consectetur ullam pariatur, itaque adipisci beatae molestiae repundiadae
                     corrupti eos, odio neque perspiciatis ratione dignissimos voluptas.
                 </p>
+            </div>
+            <div className="w-full flex md:flex-row flex-col items-center justify-between md:gap-8 gap-16 mt-24 z-50">
+                {services.map((service, index: number) => {
+                    return (
+                        <div key={index} className="flex flex-col gap-3 max-w-[300px] z-50">
+
+                        </div>
+                    )
+                })
+
+                };
             </div>
         </div>
     )
