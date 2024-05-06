@@ -49,6 +49,14 @@ const Services = () => {
                     );
                 })};
             </div>
+            <div className="md:absolute md:mt-0 mt-16 bottom-[-380px] bg-[#263640] md:pt-24 pt-8 md:w-[70%] w-full md:h-[600px] z-[100] shadow-xl">
+                <img src={about} alt="about" className="md:absolute md:block hidden right-[-250px] top-[80px] shadow-xl" />
+                <div className="flex flex-col">
+                    <span className="font-medium text-[#929a9f] text-[18px]">
+                        About us and our story
+                    </span>
+                </div>
+            </div>
         </div>
     )
 }
