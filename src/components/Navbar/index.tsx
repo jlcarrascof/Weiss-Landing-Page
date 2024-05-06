@@ -1,3 +1,5 @@
+
+import { MailOutline } from 'react-ionicons';
 import logo from '../../assets/images/logo.png';
 
 const Navbar = () => {
@@ -30,6 +32,10 @@ const Navbar = () => {
               </a>
             );
           })}
+        </div>
+        <div className="flex items-center gap-3 bg-[#ff9900] py-2 px-4 cursor-pointer">
+          <span className="text-white font-medium text-[15px]">Contact</span>
+          <MailOutline color={"#fff"} />
         </div>
       </div>
     );
