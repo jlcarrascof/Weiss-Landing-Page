@@ -19,7 +19,11 @@ const Navbar = () => {
             return (
               <a
                 href={link.path}
-                className={}
+                className={`${
+                    link.active
+                    ? "text-[#ff9900] border-[#ff9900]"
+                    : "text-[#263640] border-transparent"
+                } font-semibold text-[15px] no-underline border-b-2 py-1`}
                 key={link.title}
               >
                 {link.title}
@@ -31,4 +35,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Navbar
