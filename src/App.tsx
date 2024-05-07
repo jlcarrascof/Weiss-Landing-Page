@@ -6,6 +6,7 @@ const App = () => {
     <div className="w-full h-full flex flex-col relative box-border">
       <Header />
       <Services />
+      <Blog />
     </div>
   );
 };
