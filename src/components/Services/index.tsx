@@ -2,6 +2,7 @@ import service1 from '../../assets/images/service1.png'
 import service2 from '../../assets/images/service2.png'
 import service3 from '../../assets/images/service3.png'
 import about from '../../assets/images/about.png'
+import { ArrowForward } from 'react-ionicons'
 
 const Services = () => {
 
@@ -49,12 +50,25 @@ const Services = () => {
                     );
                 })};
             </div>
-            <div className="md:absolute md:mt-0 mt-16 bottom-[-380px] bg-[#263640] md:pt-24 pt-8 md:w-[70%] w-full md:h-[600px] z-[100] shadow-xl">
-                <img src={about} alt="about" className="md:absolute md:block hidden right-[-250px] top-[80px] shadow-xl" />
+            <div className="md:absolute md:mt-0 mt-16 bottom-[-380px] bg-[#263640] md:p-24 p-8 md:w-[70%] w-full md:h-[600px] z-[100] shadow-xl">
+                <img src={about} alt="about" className="md:absolute md:block hidden right-[-350px] top-[300px] shadow-xl" />
                 <div className="flex flex-col">
                     <span className="font-medium text-[#929a9f] text-[18px]">
                         About us and our story
                     </span>
+                    <div className="text-white font-bold text-[42px] max-w-[650px] mt-4">
+                        Graduate engineer Martin Taylor founded his engineering office in 1971.
+                    </div>
+                    <p className="text-white font-normal max-w-[450px] leading-7 mt-4">
+                        He ran it as the solo owner for almost 30 years. In 1998, son Alex Taylor joined
+                        his father as deputy. Graduate engineer Alex Taylor has been the managing and the
+                        director since 2006.
+                    </p>
+                    <span className="w-[60%] h-[1px] bg-gray-500 mt-6"></span>
+                    <div className="flex items-center gap-3 w-[209px] h-[40px] justify-start cursor-pointer mt-6">
+                        <span className="text-white font-medium text-[15px]">Continue reading</span>
+                        <ArrowForward color="#fff" />
+                    </div>
                 </div>
             </div>
         </div>
