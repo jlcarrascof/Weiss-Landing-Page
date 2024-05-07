@@ -1,3 +1,5 @@
+import { ArrowForward } from "react-ionicons";
+
 const Blog = () => {
 
     const blogs = [
@@ -35,7 +37,18 @@ const Blog = () => {
                     {blogs.map((blog) => {
                         return (
                             <div key={blog.title} className="flex flex-col gap-3 max-w-[300px] z-50">
-
+                                <span className="font-semibold text-[#263640] text-[17px] mt-3">
+                                    {blog.title}
+                                </span>
+                                <p className="leading-6 text-[#929a9f]">
+                                    {blog.desc}
+                                </p>
+                                <div className="flex items-center gap-3 justify-start cursor-pointer mt-3">
+                                    <span className="font-medium text-[#ff9900] text-[15px]">
+                                        Continue reading
+                                    </span>
+                                    <ArrowForward color="#ff9900" />
+                                </div>
                             </div>
                         );
                     })}
