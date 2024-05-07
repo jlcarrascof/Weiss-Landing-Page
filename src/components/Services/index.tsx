@@ -50,8 +50,8 @@ const Services = () => {
                     );
                 })};
             </div>
-            <div className="md:absolute md:mt-0 mt-16 bottom-[-380px] bg-[#263640] md:p-24 p-8 md:w-[70%] w-full md:h-[600px] z-[100] shadow-xl">
-                <img src={about} alt="about" className="md:absolute md:block hidden right-[-350px] top-[300px] shadow-xl" />
+            <div className="md:absolute md:mt-0 mt-16 bottom-[-360px] bg-[#263640] md:p-24 p-8 md:w-[70%] w-full md:h-[600px] z-[100] shadow-xl">
+                <img src={about} alt="about" className="md:absolute md:block hidden right-[-100px] top-[300px] shadow-xl" />
                 <div className="flex flex-col">
                     <span className="font-medium text-[#929a9f] text-[18px]">
                         About us and our story
