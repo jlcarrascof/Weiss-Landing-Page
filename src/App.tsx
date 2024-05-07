@@ -6,14 +6,14 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="w-full h-full flex flex-col relative box-border">
-      <Header />
-      <Services />
-      <Blog />
-      <Contact />
-      <Footer />
-    </div>
-  );
+        <div className="w-full h-full flex flex-col relative box-border">
+          <Header />
+          <Services />
+          <Blog />
+          <Contact />
+          <Footer />
+        </div>
+    );
 };
 
 export default App;
