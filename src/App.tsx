@@ -1,6 +1,8 @@
 import Header from './components/Header'
 import Services from './components/Services';
 import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
