@@ -14,7 +14,7 @@ const Footer = () => {
             <img src={logoWhite} alt="logo" />
             <div className="flex items-center gap-5">
                 {navLinks.map((link) => {
-                    return <span className="font-semibold text-white">{link.title}</span>
+                    return <span className="font-semibold text-white cursor-pointer">{link.title}</span>
                 })}
             </div>
         </div>
